@@ -1,0 +1,40 @@
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	font-size: 62.5%
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+}
+
+@font-face {
+	font-family: 'Arboria-Book';
+	src: url('/assets/fonts/Arboria-Book.woff') format('woff');
+	font-weight: 40rem;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Arboria-Medium';
+	src: url('/assets/fonts/Arboria-Medium.woff') format('woff');
+	font-weight: 40rem;
+	font-style: normal;
+	font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

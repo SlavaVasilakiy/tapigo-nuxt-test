@@ -1,0 +1,6 @@
+.link {
+	background: linear-gradient(90deg, #6366f1 0%, #ac54f1 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
